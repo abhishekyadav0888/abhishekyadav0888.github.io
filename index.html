@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id="nav-menu">
+		<ul>
+			<li><a href="#home" class="nav-link home">Home</a></li>
+			<li><a href="#about" class="nav-link about">About</a></li>
+			<li><a href="#skills" class="nav-link skills">Skills</a></li>
+			<li><a href="#projects" class="nav-link projects">Projects</a></li>
+			<li><a href="#contact" class="nav-link contact">Contact</a></li>
+			<li><a href="resume.pdf" target="_blank" class="nav-link resume">Resume</a></li>
+		</ul>
+	</nav>
+
+	<section id="home">
+		<div class="container">
+			<img src="profile.jpg" alt="Profile Image" class="home-img">
+			<h1 id="user-detail-name">John Doe</h1>
+			<p id="user-detail-intro">A passionate developer with experience in web development and data science.</p>
+			<a href="resume.pdf" target="_blank" id="resume-link-2"><button id="resume-button-2">Download Resume</button></a>
+		</div>
+	</section>
+
+	<section id="about" class="about section">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod augue ut nulla faucibus tempus. Proin vel elit blandit, iaculis tortor a, hendrerit ex. Sed eu erat a dolor tempor fermentum vel vel ipsum. Fusce nec sapien et lorem tincidunt lobortis. Donec fermentum arcu eget fermentum consectetur. Vivamus a libero nec ipsum malesuada euismod. Sed ut diam nec elit malesuada sollicitudin eu sit amet velit. Donec at sapien ut purus varius suscipit. Duis viverra nibh in leo consequat, id ultricies purus bibendum. Suspendisse at nulla sed odio scelerisque finibus.</p>
+			<a href="resume.pdf" target="_blank" id="resume-link-1"><button id="resume-button-1">Download Resume</button></a>
+		</div>
+	</section>
+
+	<section id="skills">
+		<div class="container">
+			<h2>Skills</h2>
+			<div class="skills-card">
+				<img src="html.png" alt="HTML" class="skills-card-img">
+				<h3 class="skills-card-name">HTML</h3>
+			</div>
+			<div class="skills-card">
+				<img src="css.png" alt="CSS" class="skills-card-img">
+				<h3 class="skills-card-name">CSS</h3>
+			</div>
+		</div>
+	</section>
+
+<section id="projects" class="projects section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="project-1.jpg" alt="Project 1">
+          <h3 class="project-title">Project 1</h3>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+          <a href="https://github.com/project1" target="_blank" rel="noopener" class="project-github-link">GitHub Repository</a>
+          <a href="https://project1.example.com/" target="_blank" rel="noopener" class="project-deployed-link">Deployed Link</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="project-1.jpg" alt="Project 1">
+          <h3 class="project-title">Project 1</h3>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+          <a href="https://github.com/project1" target="_blank" rel="noopener" class="project-github-link">GitHub Repository</a>
+          <a href="https://project1.example.com/" target="_blank" rel="noopener" class="project-deployed-link">Deployed Link</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="project-1.jpg" alt="Project 1">
+          <h3 class="project-title">Project 1</h3>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+          <a href="https://github.com/project1" target="_blank" rel="noopener" class="project-github-link">GitHub Repository</a>
+          <a href="https://project1.example.com/" target="_blank" rel="noopener" class="project-deployed-link">Deployed Link</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="project-2.jpg" alt="Project 2">
+          <h3 class="project-title">Project 2</h3>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="project-tech-stack">Tech Stack: React, Node.js, MongoDB</p>
+          <a href="https://github.com/project2" target="_blank" rel="noopener" class="project-github-link">GitHub Repository</a>
+          <a href="https://www.youtube.com/watch?v=project2" target="_blank" rel="noopener" class="project-deployed-link">Demo Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="github">
+  <div>
+    <h2>GitHub</h2>
+  </div>
+  <div>
+    <div>
+      <img id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=abhishekyadav0888&theme=dark&"
+        alt="">
+    </div>
+    <div>
+      <p><img id="github-stats-card" align="center"
+          src="https://github-readme-stats.vercel.app/api?username=abhishekyadav0888&show_icons=true&theme=dark&locale=en"
+          alt="rohit2216"></img></p>
+    </div>
+    <div>
+      <p><img id="github-top-langs" align="center"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekyadav0888&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"></img>
+      </p>
+    </div>
+  </div>
+  <div>
+    <div id="githubclaenders" class="calendar react-activity-calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+    </div>
+  </div>
+</div>
+
+<section id="contact" class="contact section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="contact-list">
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" id="contact-github">GitHub Profile</a>
+          </li>
+          <li>
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener" id="contact-linkedin">LinkedIn Profile</a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:+1234567890" id="contact-phone">+1 (234) 567-890</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:youremail@example.com" id="contact-email">youremail@example.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form id="contact-form" method="post">
+          <div class="form-group">
+            <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="contact-message" name="contact-message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="contact-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="./src/index.js"></script>
+<script src="src/style-switcher.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+</script>
+<script>
+  new GitHubCalendar(".calendar", "abhishekyadav0888");
+</script>
