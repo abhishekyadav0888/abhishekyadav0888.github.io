@@ -283,7 +283,6 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 20px;
-    height: 300px;
 }
 .services .serv-content .card:hover{
     background: crimson;
