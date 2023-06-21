@@ -50,6 +50,9 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+.skills-content{
+    margin-bottom: 50px;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -312,6 +315,85 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* -----------------------card2------------------ */
+.services .serv-content .card2{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    height: 300px;
+}
+.services .serv-content .card2:hover{
+    background: crimson;
+}
+.services .serv-content .card2 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card2:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card2 i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.services .serv-content .card2:hover i{
+    color: #fff;
+    
+}
+.services .serv-content .card2 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+/* -----------------------card3------------------ */
+.services .serv-content .card3{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.services .serv-content .card3:hover{
+    background: crimson;
+}
+.services .serv-content .card3 .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card3:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card3 i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.services .serv-content .card3:hover i{
+    color: #fff;
+    
+}
+.services .serv-content .card3 .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
 /* skills section styling */
 
 .skills .title::after{
@@ -460,6 +542,7 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 550px;
 }
 .services .serv-content .card:hover{
     background: crimson;
